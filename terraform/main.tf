@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "meu_bucket" {
-  name     = "bucket-iac-lucas"
+  name     = "bucket-tfstate-iac-lucas123"
   location = "US"
 }
 
